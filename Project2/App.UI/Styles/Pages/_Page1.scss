@@ -1,0 +1,77 @@
+﻿@import "../Settings.scss";
+
+Page1 {
+    #Body {
+        height: calc("Container");
+        background-color:white;
+        background: white;
+
+        .top-back {
+            width: calc("View.Root.Width , rw => rw*0.9 ");
+            height: calc("View.Root.Height , rh => rh * 0.8");
+            background-size: cover;
+            vertical-align: top;
+            text-align:center;
+            top: 0;
+            border-radius: 25px;
+        }
+
+        TextView {
+            position: absolute;
+
+            &.first {
+
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                /* identical to box height */
+
+                text-align: center;
+
+                /* Eggplant */
+
+                color: #3A1251;
+            }
+
+            &.second {
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                text-align: center;
+                /* Eggplant */
+                color: #3A1251;
+            }
+        }
+
+        .PrimaryButton {
+            position:relative;
+            width: 40%;
+            color: white;
+            background-color: #AE24F6;
+            margin-right:5px;
+        }
+
+        .SecondaryButton {
+            position:relative;
+            width: 40%;
+            color: white;
+            background-color: #32BDD2;
+            margin-left: 5px;
+        }
+
+        .StackClass {
+         top : calc("View.Root.Height , rh => rh * 0.76");
+        }
+    }
+}
+
+.Page1, Page:dark {
+    #Body {
+        background-color:#333333;
+        background: #333333;
+
+        
+    }
+}

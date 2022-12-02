@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<zbl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="../.zebble-schema.xml">
+   <class type="Settings" base="UI.Templates.NavBarTabs" namespace="UI.Pages" viewmodel="ViewModel.Settings">
+      <z-place inside="Body">
+         <Button Text="Log out" on-Tapped="Model.OnLogOutTapped" />
+      </z-place>
+   </class>
+</zbl>

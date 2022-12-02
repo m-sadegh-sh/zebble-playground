@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>c208a491-00e6-4463-8f44-41cdafc77ce0</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ViewModel</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Categories.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CategoryDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContactInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Contacts.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DeleteContactConfirmation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LandingPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Login.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LogoutConfirmation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Modal\SuccessAlert.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Modal\WarningAlert.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StartUp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tabs.cs" />
+  </ItemGroup>
+</Project>
