@@ -1,0 +1,138 @@
+﻿@import "../Settings.scss";
+
+Page2 {
+    #Body {
+        height: calc("Container");
+        background: #F5F5F5;
+
+        .top-back {
+            width: calc("View.Root.Width , rw => rw*0.9 ");
+            height: calc("View.Root.Height , rh => rh * 0.8");
+            background-size: cover;
+            vertical-align: top;
+            text-align:center;
+            top: 0;
+            border-radius: 25px;
+        }
+
+        .HeaderText { 
+            font-family: 'Poppins';
+            font-size: 16px;
+            font-weight:600;
+            color: #3A1251;
+        }
+
+        TextView {
+            position: absolute;
+
+            &.first {
+
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                /* identical to box height */
+
+                text-align: center;
+
+                /* Eggplant */
+
+                color: #3A1251;
+            }
+
+            &.second {
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                text-align: center;
+                /* Eggplant */
+                color: #3A1251;
+            }
+        }
+
+        .SecondaryButton {
+            color: white;
+            background-color: #32BDD2;
+        }
+
+        .StackClass {
+         top : calc("View.Root.Height , rh => rh * 0.76");
+        }
+
+        .HeaderText { 
+            font-family: 'Poppins';
+            font-size: 16px;
+            font-weight:600;
+            color: #3A1251;
+            background :  #F5F5F5;
+        }
+
+        .Scroller {
+            height: calc("Container");
+        }
+
+        .Recycler {
+            margin-left : 15px;
+        }
+
+        .DetailStack{
+            height : 120px;
+            width: 340px;
+            background : white;
+            margin-top : 10px;
+        }
+
+        .Text1{
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 20px;
+            color : #3A1251;
+            padding : 5px;
+        }
+
+        .Text2{
+            font-family: 'Poppins';
+            height: auto;
+            font-weight: 500;
+            font-size: 13px;
+            color: #3A1251;
+            padding : 5px;
+        }
+
+        
+
+    }
+}
+
+.dark Page2 {
+    #Body {
+        background: black;
+
+        .HeaderText { 
+            font-family: 'Poppins';
+            font-size: 16px;
+            font-weight:600;
+            color: white;
+            background : black;
+            margin-left: 15px;
+        }
+
+        .SecondaryButton {
+            color: #3A1251;;
+            background-color: #32BDD2;
+        }
+
+        .DetailStack{
+            background : #333333;
+        }
+        .Text1{
+            color : #FFFFFF;
+        }
+
+        .Text2{
+            color: #737373;
+        }
+        
+    }
+}

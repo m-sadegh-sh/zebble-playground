@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<zbl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="../../.zebble-schema.xml">
+   <class type="SubjectsPreview" base="Stack" namespace="UI.Modules" ClipChildren="false">
+      <Row>
+         <TextView Id="RowHeader" CssClass="HeaderText" Wrap="false" />
+      </Row>
+      <Row>
+         <RecyclerCarousel Id="Carousel"
+                           of="Subject, SlideTemplate"
+                           ShowBullets="false"
+                           CenterAligned="false"
+                           ClipChildren="true">
+            <class type="SlideTemplate" base="RecyclerCarouselSlide[Subject]" ClipChildren="false">
+               <WordListCard Id="WordListCard" isDark="@isDark" />
+            </class>
+         </RecyclerCarousel>
+      </Row>
+   </class>
+</zbl>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<zbl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="../.zebble-schema.xml">
+   <class type="Page1" base="Templates.Empty" namespace="UI.Pages">
+      <z-place inside="Body">
+         <ScrollView Id="Scroller" CssClass="Scroller">
+            <ListView of="Domain.Category, CategoryRow" Id="CategoriesList">
+               <class type="CategoryRow" base="ListViewItem[Domain.Category] ">
+                  <UI.Modules.SubjectsPreview CssClass="Recycler"
+                                              Id="LikedSubjects"
+                                              Category="@{Category, x=>x}"
+                                              HeaderText="@{Category, x=>x.Name}"
+                                              isDark="@isDark" />
+               </class>
+            </ListView>
+            <Center>
+               <PrimaryButton CssClass="SecondaryButton" Text="Change Theme" on-Tapped="OnDarkTapped" />
+            </Center>
+         </ScrollView>
+      </z-place>
+   </class>
+</zbl>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<zbl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="../.zebble-schema.xml">
+   <class type="Page2" base="Templates.Empty" namespace="UI.Pages">
+      <z-place inside="Body">
+         <ScrollView Id="Scroller" CssClass="Scroller">
+            <Center>
+               <PrimaryButton CssClass="SecondaryButton" Text="Back" on-Tapped="BackTapped" />
+            </Center>
+            <ListView of="Domain.WordInfo,DetailRow" Id="DetailsList">
+               <class type="DetailRow" base="ListViewItem[Domain.WordInfo]">
+                  <Center>
+                     <Stack CssClass="DetailStack">
+                        <TextView Id="Text1" />
+                        <TextView Id="Text2" />
+                        <TextView Id="Text3" />
+                     </Stack>
+                  </Center>
+               </class>
+            </ListView>
+         </ScrollView>
+      </z-place>
+   </class>
+</zbl>

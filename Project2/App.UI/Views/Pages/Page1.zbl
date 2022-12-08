@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<zbl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="../.zebble-schema.xml">
+   <class type="Page1" base="Templates.Empty" namespace="UI.Pages">
+      <z-place inside="Body">
+         <Stack>
+            <Center>
+               <ImageView CssClass="top-back" Path="Images/Image65.png" />
+            </Center>
+            <Row CssClass="StackClass">
+               <Center>
+                  <PrimaryButton CssClass="PrimaryButton" Text="Dark Theme" on-Tapped="OnDarkTapped" />
+                  <PrimaryButton CssClass="SecondaryButton" Text="Light Theme" on-Tapped="OnLightTapped" />
+               </Center>
+            </Row>
+         </Stack>
+      </z-place>
+   </class>
+</zbl>

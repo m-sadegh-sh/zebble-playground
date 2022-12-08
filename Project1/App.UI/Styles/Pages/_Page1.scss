@@ -1,0 +1,85 @@
+﻿@import "../Settings.scss";
+
+Page1 {
+    #Body {
+        height: calc("Container");
+        background-color:white;
+        background: white;
+
+        .top-back {
+            width: 186.5px;
+            height: 250px;
+            background-size: cover;
+            vertical-align: top;
+            text-align:center;
+            top: 0;
+        }
+
+        TextView {
+            position: absolute;
+
+            &.first {
+
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                /* identical to box height */
+
+                text-align: center;
+
+                /* Eggplant */
+
+                color: #3A1251;
+            }
+
+            &.second {
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                text-align: center;
+                /* Eggplant */
+                color: #3A1251;
+            }
+        }
+
+        PrimaryButton {
+            width: 30%;
+            color: white;
+            background-color: #32BDD2;
+        }
+    }
+}
+
+.Page1, Page:dark {
+    #Body {
+        background-color:#333333;
+        background: #333333;
+
+        .top-back {
+            vertical-align: top;
+            text-align:center;
+            top: 0;
+        }
+
+        TextView {
+            position: absolute;
+
+            &.first {
+                color : white;
+            }
+
+            &.second {
+                /* Eggplant */
+                color: white;
+            }
+        }
+
+        PrimaryButton {
+            width: 30%;
+            color: black;
+            background-color: #32BDD2;
+        }
+    }
+}

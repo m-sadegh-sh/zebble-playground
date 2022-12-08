@@ -1,0 +1,102 @@
+﻿//new color:
+$white: #FFFFFF;
+$eggplant: #3A1251;
+$eggplant-light: #755985;
+$eggplant-3: #9C88A8;
+$eggplant-4: C4B8CB;
+$indigo:#5A37A5;
+$violet2:#D692FA;
+$yellow-light:#F2C00D;
+$cloud: #D9DDED;
+$turquoise: #32BDD2;
+$turquoise-dark: #33AFC8;
+$turquoise-light: #9DD5DD;
+$grey-v: #291534;
+$grey-3: #4E4F54;
+$tselct-4: #1B525B;
+
+$black-dark: #121212;
+$grey: #191919;
+$grey2: #232323;
+$grey-light: #333333;
+$grey-lighter: #737373;
+$grey-lightest: #595959;
+
+$grape: #8349A9;
+$grape-dark: #641C93;
+$grape-light: #C1A4D4;
+$grape-live: #F7E9FE;
+
+//////////////////////////////////////
+$brand-green: $turquoise;
+
+$violet: #AE24F6;
+$violet-light: #F7E9FE;
+
+$dark-green: #808BA9;
+$darker-green: #22B573;
+$happy-green: $turquoise; //must remove
+
+$input-padding: 7px;
+
+$black: $eggplant;
+$dark-a: $grey;
+/*$dark-a: #2A3247;*/
+$dark-b: $grey-light;
+$dark-c: $grey;
+/*$dark-c: #3E4569;*/
+$dark-cd: $grey-light;
+/*$dark-cd: #4B5078;*/
+$dark-d: $grey-lighter;
+$dark-de: #828BAA;
+$dark-e: $grey-lightest;
+$dark-f: #BAC3DA;
+$dark-g: #D3D6E1;
+$dark-i: #D7DAE4;
+$dark-j: #EFF2F8; //new value
+$dark-k: #EBEDF3;
+$dark-l: #EFF2F8;
+$dark-m: #F6F8FB;
+$dark-n: #D9DDED;
+$dark-o: #5B648D;
+$dark-p: #F7F8FA;
+$dark-q: #7D8290;
+$dark-r: #383e57;
+$dark-primary-green: #0DA2B1;
+$dark-secondary-green: #3B456F;
+$dark-primary-unknown: #29304F;
+$dark-primary-background: #363D59;
+
+$dark-blue-border: #555C7A;
+$dark-blue: #4E618E;
+$light-blue: #DDE2F9;
+$blue: #2C69C5;
+$khaki: #F59E24;
+$red: #FA1E64;
+
+$yellow: #FFC800;
+
+$orange: #d4af37;
+$green: $happy-green;
+$gray-light: #e1e1e1;
+$gray-border: #D8DCE4;
+$gray: #909090;
+$gray-bg: #dbdde3;
+$gray-border: #CCCFDE;
+$gray-text: #737373;
+
+$gray6: #A0A0A0;
+
+$page-background: $dark-j;
+
+$font-light: "Poppins-Light.otf#Poppins";
+$font-regular: "Poppins-Medium.otf#Poppins";
+$font-bold: "Poppins-SemiBold.otf#Poppins";
+$font-black: "Poppins-Bold.otf#Poppins";
+
+$font-Arvo: "Arvo-Regular.otf#Arvo";
+$font-ZawgyiOne: "ZAWGYIONE.ttf";
+
+$frame: $dark-d;
+
+@mixin white-card { background: white; border-radius: 15px; }

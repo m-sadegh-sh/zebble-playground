@@ -1,0 +1,116 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>cd40d45a-cffe-46fc-8a9d-055ef9ff9440</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>UI</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)compilerconfig.json.defaults" />
+    <None Include="$(MSBuildThisFileDirectory)compilerconfig.json" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Images\Splash.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\Icon.png" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Components\_BaseModal.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Components\_Button.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Components\ConfirmationModal.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Components\_ImageView.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Components\_NavBar.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Components\_PopUp.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Components\_Row.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Components\_Tabs.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Components\_Text.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Components\_Utilities.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Pages\_Landing.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Pages\_Page2.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Pages\_Page1.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\PlatformSpecific.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Common.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Settings.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Shared\_Colors.scss" />
+    <None Include="$(MSBuildThisFileDirectory)Templates\Blank.zbl" />
+    <None Include="$(MSBuildThisFileDirectory)Templates\NavBar.zbl" />
+    <None Include="$(MSBuildThisFileDirectory)Views\Pages\Components\SubjectsPreview.zbl" />
+    <None Include="$(MSBuildThisFileDirectory)Views\Pages\Modal\BaseModal.zbl" />
+    <None Include="$(MSBuildThisFileDirectory)Views\Pages\Modal\ConfirmationModal.zbl" />
+    <None Include="$(MSBuildThisFileDirectory)Views\Pages\Modal\SuccessAlert.zbl" />
+    <None Include="$(MSBuildThisFileDirectory)Views\Pages\Modal\WarningAlert.zbl" />
+    <None Include="$(MSBuildThisFileDirectory)Views\Pages\Page1.zbl" />
+    <None Include="$(MSBuildThisFileDirectory)Styles\Pages\__SubjectsPreview.scss" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\Home.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\Menu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\not-found.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\Shoes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\Spinner.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Zebble-Meta.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="$(MSBuildThisFileDirectory)Views\Pages\Page2.zbl" />
+    <None Include="$(MSBuildThisFileDirectory)Widgets\NavigationBar.zbl" />
+    <None Include="$(MSBuildThisFileDirectory)Widgets\Tab.zbl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory).zebble-generated-css.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory).zebble-generated.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Components\Layout\SafeArea.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StartUp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Templates\Empty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModelExtras.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Pages\Components\SubjectsPreview.zbl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Pages\Components\WordListCard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Pages\Page1.zbl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Pages\Page2.zbl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\image65.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\info.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="$(MSBuildThisFileDirectory)Styles\Common.css" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\categories-icon-blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\contacts-icon-blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\Home-blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\settings-icon-blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\ios-arrow-back.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\categories-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\contacts-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Images\Icons\settings-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="$(MSBuildThisFileDirectory)Views\.zebble-schema.xml" />
+  </ItemGroup>
+</Project>

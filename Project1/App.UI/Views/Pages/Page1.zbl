@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<zbl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="../.zebble-schema.xml">
+   <class type="Page1" base="Templates.Empty" namespace="UI.Pages">
+      <z-place inside="Body">
+         <Center>
+            <ImageView CssClass="top-back" Path="Images/GreatJob1.png" />
+         </Center>
+         <TextView CssClass="first" Text="Great Job!" />
+         <TextView CssClass="second" Text="Keep up the good work" />
+         <Center>
+            <PrimaryButton CssClass="PrimaryButton" Text="Change theme" on-Tapped="OnStartTapped" />
+         </Center>
+      </z-place>
+   </class>
+</zbl>
